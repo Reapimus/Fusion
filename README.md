@@ -2,6 +2,9 @@
 
 ### Futuristic Luau for every universe.
 
+> [!NOTE]
+> This is a fork of [Fusion](https://github.com/dphfox/Fusion) with Roblox-TS typings implemented.
+
 Fusion is a portable Luau companion library for simpler, more descriptive code.
 
 With Fusion, assemble straightforward chains of logic that are easy to understand,
