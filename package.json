@@ -1,15 +1,33 @@
 {
-    "name": "@dphfox/fusion",
-    "version": "0.4.0",
+    "name": "@reapimus/fusion",
+    "version": "0.4.2",
+    "publishConfig": {
+        "access": "public"
+    },
+    "description": "TypeScript support for Fusion",
+    "main": "src/init.luau",
+    "typings": "src/index.d.ts",
     "license": "MIT",
+    "author": "Elttob",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dphfox/Fusion.git"
+        "url": "https://github.com/reapimus/Fusion.git"
     },
     "contributors": [
-        "dphfox"
+        "reapimus"
     ],
     "bugs": {
-        "url": "https://github.com/dphfox/Fusion/issues"
-    }
+        "url": "https://github.com/reapimus/Fusion/issues"
+    },
+    "dependencies": {
+        "@rbxts/compiler-types": "^3.0.0-types.0",
+        "@rbxts/types": "^1.0.846",
+        "roblox-ts": "^3.0.0"
+    },
+    "directories": {
+		"lib": "src"
+	},
+	"files": [
+		"src"
+	]
 }
