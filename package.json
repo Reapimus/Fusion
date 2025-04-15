@@ -24,9 +24,6 @@
         "@rbxts/types": "^1.0.846",
         "roblox-ts": "^3.0.0"
     },
-    "directories": {
-		"lib": "src"
-	},
 	"files": [
 		"src"
 	]

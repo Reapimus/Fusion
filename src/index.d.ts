@@ -39,7 +39,7 @@ import Tween from "./Animation/Tween";
 import Spring from "./Animation/Spring";
 
 declare namespace Fusion {
-	// General
+    // General
     export const version: Version;
     export { Contextual, Safe };
 
