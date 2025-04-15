@@ -61,7 +61,7 @@ export interface IDestroyable {
 /**
  * A scope of tasks to clean up.
  */
-export type Scope<Constructors = any> = Task[] & Constructors;
+export type Scope<Constructors = any> = Task[] & Constructors & Array<Task>;
 
 /**
  * An object which uses a scope to dictate how long it lives.
