@@ -9,7 +9,6 @@ export declare interface Value<T, S = T> extends Types.StateObject<T> {
     kind: "State";
     timeliness: "lazy";
     set: (this: S, newValue: S, force?: boolean) => S;
-    get(this: S, asDependency?: boolean): T;
 }
 
 export default function Value<T>(this: Types.Scope<unknown>, intitialValue?: T): Value<T, any>;
